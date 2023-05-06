@@ -1,0 +1,442 @@
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
+ul,li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+img{
+  vertical-align: middle;
+}
+/* ===== common css ends ===== */
+/* ===== navbar css starts ===== */
+.navbar {
+  background: #000000b4;
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.navbar .navbar-brand{
+  color: #fff;
+  font-family: 'Grand Hotel', cursive;
+  text-transform: capitalize;
+  font-size: 36px;
+  text-shadow: 0 0 30px #e8565e;
+}
+.navbar .navbar-brand:hover{
+  color: #fff;
+}
+.navbar .navbar-nav .nav-item .nav-link {
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 18px;
+  padding: 5px 30px;
+  border-radius: 30px;
+}
+.navbar .navbar-nav .nav-item .nav-link:hover {
+  background: #fff;
+  color: #e8565e;
+}
+.navbar .navbar-toggler {
+  background: transparent;
+  border-color: #fff;
+}
+.navbar .navbar-toggler:focus{
+  box-shadow: none;
+}
+.navbar span{
+  color: #fff !important;
+}
+/* ===== navbar css ends ===== */
+/* ===== banner css strats ===== */
+#banner{
+  background: url("../images/banner1.png") no-repeat center / cover;
+}
+#banner h1{
+  font-family: 'Grand Hotel', cursive;
+  font-size: 180px;
+  color: #fff;
+  text-align: center;
+  text-transform: capitalize;
+  margin-top: 250px;
+  text-shadow: 0 0 30px #000;
+}
+#banner p{
+  color: #fff;
+  padding: 0 300px;
+  font-size: 26px;
+  text-align: center;
+}
+#banner button{
+  text-transform: uppercase;
+  color: #fff;
+  padding: 10px 80px;
+  border: 1px solid #fff;
+  border-radius: 50px;
+  background: transparent;
+  margin: auto;
+  display: block;
+  margin-top: 40px;
+  margin-bottom: 80px;
+  font-size: 24px;
+  transition: all linear 0.2s;
+}
+#banner button:hover{
+  box-shadow: 0 0 10px #000;
+  background: red;
+  border-color: red;
+}
+/* ===== banner css ends ===== */
+/* ===== popular css starts ===== */
+#popular{
+  background: url("../images/banner2.png") no-repeat center / cover;
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+#popular h1{
+  color: #e8565e;
+  font-family: 'Grand Hotel', cursive;
+  font-size: 80px;
+}
+#popular p{
+  font-size: 18px;
+  padding: 0 300px;
+}
+#popular .card{
+  background: transparent;
+  text-align: center;
+  border-color: #e8565e;
+  padding: 15px 30px 10px 30px;
+  margin-top: 50px;
+  box-shadow: 0 0 5px #000;
+}
+#popular .card img{
+  border-radius: 50%;
+}
+#popular .card h5{
+  color: #e8565e;
+  font-family: 'Grand Hotel', cursive;
+  font-size: 48px;
+  text-transform: capitalize;
+}
+#popular .card h6{
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+#popular .card button{
+  padding: 8px 40px;
+  color: #e8565e;
+  border: 1px solid #e8565e;
+  border-radius: 50px;
+  background: transparent;
+  text-transform: uppercase;
+  font-weight: 700;
+  transition: all linear 0.2s;
+}
+#popular button:hover{
+  box-shadow: 0 0 10px #000;
+  background: red;
+  border-color: red;
+  color: #fff;
+}
+/* ===== popular css ends ===== */
+/* ===== satistics css starts ===== */
+#satistics{
+  background: url("../images/banner3.png") no-repeat center / cover;
+  padding-top: 80px;
+  padding-bottom: 140px;
+}
+#satistics h1{
+  color: #fff;
+  font-family: 'Grand Hotel', cursive;
+  font-size: 80px;
+}
+#satistics p{
+  font-size: 24px;
+  padding: 0 300px;
+  color: #fff;
+  margin-bottom: 80px;
+}
+#satistics .center{
+  display: flex;
+  justify-content: center;
+}
+#satistics .counter-area{
+  width: 250px;
+  height: 250px;
+  border: 5px dashed #fff;
+  text-align: center;
+  border-radius: 50%;
+}
+#satistics .counter-area h2{
+  color: #fff;
+  /* font-family: 'Grand Hotel', cursive; */
+  font-size: 50px;
+  margin-top: 70px;
+  font-weight: 700;
+}
+#satistics .counter-area h3{
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 30px;
+}
+/* ===== satistics css ends ===== */
+/* ===== menu-list css starts ===== */
+#menu-list{
+  background: url("../images/banner4.png") no-repeat center / cover;
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+#menu-list h1{
+  color: #e8565e;
+  font-family: 'Grand Hotel', cursive;
+  font-size: 80px;
+}
+#menu-list p{
+  font-size: 24px;
+  padding: 0 300px;
+  color: #000;
+  margin-bottom: 80px;
+}
+#menu-list .mt{
+  margin-top: 80px;
+}
+#menu-list .contents{
+  display: flex;
+}
+#menu-list .contents .image img{
+  margin-top: 10px;
+}
+#menu-list .contents .text{
+  padding-left: 20px;
+}
+#menu-list .contents .text h2{
+  color: #e8565e;
+  font-size: 48px;
+  font-family: 'Grand Hotel', cursive;
+  text-transform: capitalize;
+}
+/* ===== menu-list css ends ===== */
+/* ===== pasta css starts ===== */
+#pasta{
+  background: url("../images/banner6.png") no-repeat center / cover;
+}
+#pasta img{
+  width: 100%;
+}
+#pasta h1{
+  color: #e8565e;
+  font-size: 80px;
+  font-family: 'Grand Hotel', cursive;
+  text-transform: capitalize;
+  padding-left: 50px;
+  margin-top: 300px;
+}
+#pasta p{
+  padding-left: 50px;
+  padding-right: 150px;
+}
+#pasta button{
+  padding: 8px 40px;
+  color: #e8565e;
+  border: 1px solid #e8565e;
+  border-radius: 50px;
+  background: transparent;
+  text-transform: uppercase;
+  font-weight: 700;
+  transition: all linear 0.2s;
+  margin-left: 50px;
+  margin-top: 30px;
+}
+#pasta button:hover{
+  box-shadow: 0 0 10px #000;
+  background: red;
+  border-color: red;
+  color: #fff;
+}
+/* ===== pasta css ends ===== */
+/* ===== package css starts ===== */
+#package{
+  background: url("../images/banner4.png") no-repeat center / cover;
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+#package h1{
+  color: #e8565e;
+  font-family: 'Grand Hotel', cursive;
+  font-size: 80px;
+}
+#package p{
+  font-size: 24px;
+  padding: 0 300px;
+  color: #000;
+  margin-bottom: 80px;
+}
+#package .card{
+  padding-top: 50px;
+  padding-bottom: 10px;
+  background: #faf5e4;
+  box-shadow: 0 0 5px #000;
+}
+#package .card h5{
+  margin-top: 40px;
+  color: #e8565e;
+  font-size: 40px;
+  font-family: 'Grand Hotel', cursive;
+  text-transform: capitalize;
+}
+#package .card h6{
+  font-size: 18px;
+}
+#package button{
+  padding: 8px 100px;
+  color: #fff;
+  border: 1px solid #e8565e;
+  border-radius: 50px;
+  background: #e8565e;
+  text-transform: uppercase;
+  font-weight: 700;
+  transition: all linear 0.2s;
+  margin-top: 30px;
+}
+#package button:hover{
+  box-shadow: 0 0 10px #000;
+  background: red;
+  border-color: red;
+  color: #fff;
+}
+/* ===== package css ends ===== */
+/* ===== chef css starts ===== */
+#chef{
+  background: #faf5e4;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+#chef h1{
+  color: #e8565e;
+  font-family: 'Grand Hotel', cursive;
+  font-size: 80px;
+  text-transform: capitalize;
+}
+#chef img{
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  border: 5px solid #e8565e;
+  margin-top: 20px;
+}
+#chef p{
+  margin-top: 30px;
+  padding: 0 300px;
+  font-size: 20px;
+}
+/* ===== chef css ends ===== */
+/* ===== subscribe css starts ===== */
+#subscribe{
+  background: url("../images/banner4.png") no-repeat center / cover;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+#subscribe h1{
+  color: #e8565e;
+  font-family: 'Grand Hotel', cursive;
+  font-size: 80px;
+}
+#subscribe p{
+  font-size: 24px;
+  padding: 0 300px;
+  color: #000;
+  margin-bottom: 50px;
+}
+#subscribe .form{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#subscribe .form input{
+  border: none;
+  padding: 10px 50px 10px 20px;
+  width: 500px;
+  border-radius: 50px 0 0 50px;
+  font-size: 18px;
+}
+#subscribe .form input:focus{
+  outline: none;
+}
+#subscribe .form input::placeholder{
+  font-size: 18px;
+  text-transform: capitalize;
+}
+#subscribe .form button{
+  border: none;
+  width: 200px;
+  padding: 10px 10px;
+  border-radius: 50px 50px 50px 50px;
+  margin-left: -40px;
+  background: #e8565e;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 18px;
+  transition: all linear 0.2s;
+}
+#subscribe .form button:hover{
+  box-shadow: 0 0 10px #000;
+  background: red;
+  border-color: red;
+  color: #fff;
+}
+/* ===== subscribe css ends ===== */
+/* ===== footer css starts ===== */
+#footer{
+  background: #2a2a2a;
+  padding-top: 80px;
+  padding-bottom: 60px;
+}
+#footer .heading h1{
+  color: #fff;
+  font-family: 'Grand Hotel', cursive;
+  font-size: 36px;
+  text-transform: capitalize;
+}
+#footer .details p{
+  color: #fff;
+  padding-right: 100px;
+}
+#footer .details ul li{
+  color: #fff;
+  text-transform: capitalize;
+  padding: 5px 0;
+  cursor: pointer;
+}
+#footer .details ul li i{
+  height: 25px;
+  width: 25px;
+  background: #fff;
+  color: #000;
+  border-radius: 50%;
+  margin-right: 10px;
+  text-align: center;
+  padding-top: 4px;
+}
+/* ===== footer css ends ===== */
+/* ===== copyright css ends ===== */
+#copyright{
+  background: #000;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  color: #fff;
+  text-transform: capitalize;
+}
+#copyright span{
+  color: #e8565e;
+  font-family: 'Grand Hotel', cursive;
+}
+/* ===== copyright css ends ===== */

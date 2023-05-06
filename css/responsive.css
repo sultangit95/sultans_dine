@@ -1,0 +1,528 @@
+/* ===== for mobile ===== */
+@media (min-width: 320px) and (max-width: 575px){
+  .navbar {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .navbar .navbar-nav .nav-item .nav-link {
+    width: 100%;
+    text-align: center;
+    border-radius: 0;
+    font-size: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  /* ===== navbar css ends ===== */
+  /* ===== banner css strats ===== */
+  #banner h1{
+    font-size: 60px;
+    margin-top: 150px;
+  }
+  #banner p{
+    padding: 0 0;
+    font-size: 18px;
+  }
+  #banner button{
+    padding: 10px 40px;
+    font-size: 18px;
+  }
+  /* ===== banner css ends ===== */
+  /* ===== popular css starts ===== */
+  #popular{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  #popular .card{
+    padding: 15px 20px 10px 20px;
+  }
+  #popular .card img{
+    width: 70%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+  }
+  #popular .card h5{
+    font-size: 38px;
+  }
+  #popular h1{
+    font-size: 48px;
+  }
+  #popular p{
+    padding: 0 0;
+    font-size: 18px;
+  }
+  /* ===== popular css ends ===== */
+  /* ===== satistics css starts ===== */
+  #satistics{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  #satistics h1{
+    font-size: 48px;
+  }
+  #satistics p{
+    padding: 0 0;
+    font-size: 18px;
+  }
+  #satistics .counter-area{
+    margin-bottom: 50px;
+  }
+  /* ===== satistics css ends ===== */
+  /* ===== menu-list css starts ===== */
+  #menu-list{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  #menu-list h1{
+    font-size: 60px;
+  }
+  #menu-list p{
+    padding: 0 0;
+    font-size: 18px;
+  }
+  #menu-list .mt{
+    margin-top: 0;
+  }
+  #menu-list .contents .text h6{
+    text-align: justify;
+  }
+  /* ===== menu-list css ends ===== */
+  /* ===== pasta css starts ===== */
+  #pasta{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
+  }
+  #pasta h1{
+    padding-left: 0;
+    margin-top: 50px;
+    font-size: 48px;
+  }
+  #pasta p{
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  #pasta button{
+    margin-left: 0;
+  }
+  /* ===== pasta css ends ===== */
+  /* ===== package css starts ===== */
+  #package{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  #package h1{
+    font-size: 48px;
+  }
+  #package p{
+    padding: 0 0;
+    font-size: 18px;
+  }
+  #package .card{
+    margin-bottom: 50px;
+  }
+  /* ===== package css ends ===== */
+  /* ===== chef css starts ===== */
+  #chef{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  #chef h1{
+    font-size: 48px;
+  }
+  #chef img{
+    width: 200px;
+    height: 200px;
+  }
+  #chef p{
+    padding: 0 0;
+    font-size: 18px;
+    text-align: justify;
+  }
+  /* ===== chef css ends ===== */
+  /* ===== subscribe css starts ===== */
+  #subscribe{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  #subscribe h1{
+    font-size: 48px;
+  }
+  #subscribe p{
+    padding: 0 0;
+    font-size: 18px;
+  }
+  #subscribe .form input{
+    width: 70%;
+    font-size: 14px;
+  }
+  #subscribe .form button{
+    width: 30%;
+    font-size: 14px;
+  }
+  /* ===== subscribe css ends ===== */
+  /* ===== footer css starts ===== */
+  #footer{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  #footer .details p{
+    padding-right: 0;
+    text-align: justify;
+  }
+}
+/* ===== for medium device ===== */
+@media (min-width: 576px) and (max-width: 767px){
+  .navbar {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .navbar .navbar-nav .nav-item .nav-link {
+    width: 100%;
+    text-align: center;
+    border-radius: 0;
+    font-size: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  /* ===== navbar css ends ===== */
+  /* ===== banner css strats ===== */
+  #banner h1{
+    font-size: 100px;
+    margin-top: 150px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  #banner p{
+    padding: 0 10px;
+    font-size: 24px;
+  }
+  #banner button{
+    padding: 10px 50px;
+  }
+  /* ===== banner css ends ===== */
+  /* ===== popular css starts ===== */
+  #popular{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  #popular h1{
+    font-size: 60px;
+  }
+  #popular p{
+    padding: 0 10px;
+  }
+  /* ===== popular css ends ===== */
+  /* ===== satistics css starts ===== */
+  #satistics{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  #satistics h1{
+    font-size: 60px;
+  }
+  #satistics p{
+    padding: 0 10px;
+  }
+  #satistics .counter-area{
+    margin-bottom: 50px;
+  }
+  /* ===== satistics css ends ===== */
+  /* ===== menu-list css starts ===== */
+  #menu-list{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  #menu-list h1{
+    font-size: 60px;
+  }
+  #menu-list p{
+    padding: 0 10px;
+  }
+  #menu-list .mt{
+    margin-top: 0;
+  }
+  #menu-list .contents .text h6{
+    text-align: justify;
+  }
+  /* ===== menu-list css ends ===== */
+  /* ===== pasta css starts ===== */
+  #pasta{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
+  }
+  #pasta h1{
+    padding-left: 0;
+    margin-top: 50px;
+    font-size: 50px;
+  }
+  #pasta p{
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  #pasta button{
+    margin-left: 0;
+  }
+  /* ===== pasta css ends ===== */
+  /* ===== package css starts ===== */
+  #package{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  #package h1{
+    font-size: 50px;
+  }
+  #package p{
+    padding: 0 10px;
+  }
+  #package .card{
+    margin-bottom: 50px;
+  }
+  /* ===== package css ends ===== */
+  /* ===== chef css starts ===== */
+  #chef{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  #chef h1{
+    font-size: 50px;
+  }
+  #chef p{
+    padding: 0 10px;
+    text-align: justify;
+  }
+  /* ===== chef css ends ===== */
+  /* ===== subscribe css starts ===== */
+  #subscribe{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  #subscribe h1{
+    font-size: 50px;
+  }
+  #subscribe p{
+    padding: 0 10px;
+  }
+  #subscribe .form input{
+    width: 70%;
+  }
+  #subscribe .form button{
+    width: 30%;
+  }
+  /* ===== subscribe css ends ===== */
+  /* ===== footer css starts ===== */
+  #footer{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  #footer .details p{
+    padding-right: 0;
+    text-align: justify;
+  }
+  /* ===== footer css ends ===== */
+  /* ===== copyright css ends ===== */
+
+  /* ===== copyright css ends ===== */
+}
+@media (min-width: 768px) and (max-width: 991px){
+  .navbar {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .navbar .navbar-nav .nav-item .nav-link {
+    width: 100%;
+    text-align: center;
+    border-radius: 0;
+    font-size: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  /* ===== navbar css ends ===== */
+  /* ===== banner css strats ===== */
+  #banner h1{
+    font-size: 100px;
+    margin-top: 150px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  #banner p{
+    padding: 0 10px;
+    font-size: 24px;
+  }
+  #banner button{
+    padding: 10px 50px;
+  }
+  /* ===== banner css ends ===== */
+  /* ===== popular css starts ===== */
+  #popular{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  #popular h1{
+    font-size: 60px;
+  }
+  #popular p{
+    padding: 0 10px;
+  }
+  /* ===== popular css ends ===== */
+  /* ===== satistics css starts ===== */
+  #satistics{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  #satistics h1{
+    font-size: 60px;
+  }
+  #satistics p{
+    padding: 0 10px;
+  }
+  #satistics .counter-area{
+    margin-bottom: 50px;
+  }
+  /* ===== satistics css ends ===== */
+  /* ===== menu-list css starts ===== */
+  #menu-list{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  #menu-list h1{
+    font-size: 48px;
+    color: green;
+  }
+  #menu-list p{
+    padding: 0 10px;
+    font-size: 18px;
+  }
+  #menu-list .mt{
+    margin-top: 0;
+  }
+  #menu-list .contents .text h6{
+    text-align: justify;
+  }
+  /* ===== menu-list css ends ===== */
+  /* ===== pasta css starts ===== */
+  #pasta{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
+  }
+  #pasta h1{
+    padding-left: 0;
+    margin-top: 50px;
+    font-size: 50px;
+  }
+  #pasta p{
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  #pasta button{
+    margin-left: 0;
+  }
+  /* ===== pasta css ends ===== */
+  /* ===== package css starts ===== */
+  #package{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  #package h1{
+    font-size: 50px;
+  }
+  #package p{
+    padding: 0 10px;
+  }
+  #package .card{
+    margin-bottom: 50px;
+  }
+  /* ===== package css ends ===== */
+  /* ===== chef css starts ===== */
+  #chef{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  #chef h1{
+    font-size: 50px;
+  }
+  #chef p{
+    padding: 0 10px;
+    text-align: justify;
+  }
+  /* ===== chef css ends ===== */
+  /* ===== subscribe css starts ===== */
+  #subscribe{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  #subscribe h1{
+    font-size: 50px;
+  }
+  #subscribe p{
+    padding: 0 10px;
+  }
+  #subscribe .form input{
+    width: 70%;
+  }
+  #subscribe .form button{
+    width: 30%;
+  }
+  /* ===== subscribe css ends ===== */
+  /* ===== footer css starts ===== */
+  #footer{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  #footer .details p{
+    padding-right: 0;
+    text-align: justify;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px){
+  
+}
+@media (min-width: 1200px) and (max-width: 1399px){
+  
+}
+@media (min-width: 1400px){
+  
+}
